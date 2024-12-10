@@ -9,7 +9,7 @@ final_data = pd.read_json(r"data\preprocessd_data\final_preprocessed_data.json")
 final_data.rename(columns={'username': 'user_id'}, inplace=True)
 
 # Content-based filtering function (as implemented earlier)
-def get_content_based_recommendations(video_id, top_n=5):
+def get_content_based_recommendations(video_id, top_n=10):
     # Extract features from the final preprocessed data
     content_features = final_data[['interaction_count', 'user_avg_rating']]
     
