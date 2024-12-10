@@ -1,0 +1,10 @@
+Flask
+pandas
+numpy
+scikit-learn
+requests
+flask-cors
+matplotlib
+seaborn
+os
+sys
