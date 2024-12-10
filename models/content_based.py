@@ -11,7 +11,7 @@ content_features = final_data[['interaction_count', 'user_avg_rating']]
 content_similarity_matrix = cosine_similarity(content_features)
 
 # Function to recommend top N similar videos based on a given video index
-def get_content_based_recommendations(video_id, top_n=5):
+def get_content_based_recommendations(video_id, top_n=10):
     # Get the index of the video in the dataset
     video_index = final_data[final_data['id'] == video_id].index[0]
     
