@@ -15,7 +15,7 @@ user_similarity_matrix = cosine_similarity(user_item_matrix)
 user_similarity_df = pd.DataFrame(user_similarity_matrix, index=user_item_matrix.index, columns=user_item_matrix.index)
 
 # Function to recommend top N videos for a given user_id (username) based on user similarity
-def get_collaborative_recommendations(username, top_n=5):
+def get_collaborative_recommendations(username, top_n=10):
     # Get the most similar users to the given username
     similar_users = user_similarity_df[username].sort_values(ascending=False)[1:top_n+1].index
     
