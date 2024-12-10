@@ -140,7 +140,7 @@ video-recommendation-system/
 
 - Example Request:
     ```
-    GET http://localhost:5000/feed?username=john_doe&category_id=101
+    GET http://localhost:5000/feed?username=kinha&category_id=814
     ```
 - Response:
 
