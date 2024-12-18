@@ -1,4 +1,4 @@
-# Video Recommendation System
+# VidSense (Video Recommendation System)
 
 This project implements a personalized video recommendation system using Flask. It recommends videos based on user preferences and interaction data, integrating content-based, collaborative filtering, and hybrid models to suggest the best possible videos.
 
