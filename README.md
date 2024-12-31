@@ -164,7 +164,7 @@ video-recommendation-system/
 
 - Example Request:
     ```
-    GET http://localhost:5000/feed?username=john_doe
+    GET http://localhost:5000/feed?username=kinha
     ```
 - Response:
 
